@@ -8,9 +8,9 @@ export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('preferredLanguage');
-      return saved && ['en', 'mk', 'tr'].includes(saved) ? saved : 'en';
+      return saved && ['en', 'mk', 'tr'].includes(saved) ? saved : 'mk';
     }
-    return 'en';
+    return 'mk';
   });
 
   // Save language preference to localStorage
