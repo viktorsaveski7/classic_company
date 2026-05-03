@@ -91,7 +91,7 @@ const Contact = () => {
           {/* Google Maps Embed */}
           <div className="rounded-2xl overflow-hidden shadow-lg h-[400px] lg:h-full min-h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d20.7919!3d41.1169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135416c4a3b8b7b9%3A0x0!2sOhrid%2C%20North%20Macedonia!5e0!3m2!1sen!2s!4v1640000000000!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.0!2d20.7986094!3d41.1186962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350dd01e78655cd%3A0xbf69ea408810be39!2sClassic%20Company!5e0!3m2!1sen!2smk!4v1714000000000!5m2!1sen!2smk"
               width="100%"
               height="100%"
               style={{ border: 0 }}
